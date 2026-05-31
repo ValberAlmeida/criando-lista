@@ -1,0 +1,76 @@
+@keyframes animacao {
+  0% {
+    background-color: rgb(216, 0, 0);
+  }
+
+  25% {
+
+    background-color: rgb(6, 161, 0);
+  }
+
+  50%{
+
+background-color: rgb(0, 145, 212);
+
+  }
+
+  75% {
+background-color: rgb(0, 0, 0);
+
+  }
+
+  100% {
+    background-color: rgb(229, 0, 0);
+  }
+
+}
+
+.meu-botao {
+    background-color:#3498db ;
+    color: #080101;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+
+}
+.meu-botao:hover {
+
+    background-color: #d8d8d8;
+
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    border-radius:200px ;
+    text-align: center;
+    color:rgb(245, 245, 245) ;
+    font-size: 50px;
+    animation:animacao 3s infinite ;
+}
+.lista-tarefas {
+
+    background-color: #acacac; 
+    text-align: center;
+    font-size:20px;
+    border-style: groove;
+
+
+}
+body {
+   
+    background-image: url('imagem/lista.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#tarefa{
+
+    text-align: center;
+
+}
